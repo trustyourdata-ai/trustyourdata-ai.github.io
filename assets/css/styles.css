@@ -48,17 +48,9 @@ a{color:inherit}
   font-weight:600; letter-spacing:.2px;
 }
 .logo{
-  width:36px; height:36px; border-radius:10px;
-  background: linear-gradient(135deg, rgba(125,211,252,.95), rgba(167,139,250,.95));
-  box-shadow: 0 10px 25px rgba(125,211,252,.18);
-  position:relative;
-}
-.logo:after{
-  content:"";
-  position:absolute; inset:10px;
-  border-radius:7px;
-  background: rgba(11,15,20,.78);
-  border:1px solid rgba(255,255,255,.12);
+  width:36px;
+  height:36px;
+  border-radius:10px;
 }
 .nav-links{
   display:flex; gap:18px; align-items:center; flex-wrap:wrap;
